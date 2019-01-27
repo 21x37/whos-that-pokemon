@@ -1,0 +1,66 @@
+body {
+    background-image: linear-gradient(to bottom right,#FFF886, #F072B6), url(pokemon-index-bg.png);
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Contrail One', cursive;
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon {
+    position: relative;
+    left: 115px;
+    opacity: 0.8;
+}
+
+.container {
+    padding: 100px 50px 100px 50px;
+    background-color: rgba(241, 241, 241, 0.815);
+    border-radius: 100px;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.336);
+}
+
+.header {
+    position: relative;
+    left: 10px;
+    bottom: 30px;
+    color: rgba(46, 46, 46, 0.822);
+    text-transform: uppercase;
+}
+
+.btn {
+    position: relative;
+    display: block;
+    left: 60px;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    font-family: 'Contrail One', cursive;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.753);
+    border-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.404);
+
+}
+
+.search {
+    margin-top: 30px;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    bottom: 30px;
+    font-family: 'Contrail One', cursive;
+    color: rgba(0, 0, 0, 0.712);
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.26);
+    text-align: center;
+}
+
+  
